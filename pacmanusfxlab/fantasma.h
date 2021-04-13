@@ -1,3 +1,4 @@
+
 #pragma once
 #include <SDL.h>
 
@@ -15,7 +16,7 @@ private:
 
 	//Velocidad a la que mueve el fantasma en cualquier eje
 	int velocidadPatron;
-
+	//rango de la imagen
 	int ancho;
 	int alto;
 
@@ -78,4 +79,4 @@ public:
 	// Renderizar imagen fantasma
 	void render(SDL_Texture* Textura);
 
-}; 
+};
