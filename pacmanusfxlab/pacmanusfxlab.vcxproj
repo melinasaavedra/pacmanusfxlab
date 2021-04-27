@@ -80,8 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\sis457\SDL2\include;C:\sis457\SDL2_image\include;$(IncludePath)</IncludePath>
-    <LibraryWPath>C:\sis457\SDL2\lib\x64;C:\sis457\SDL2_image\lib\x64;$(LibraryWPath)</LibraryWPath>
+    <IncludePath>C:\sis457\SDL2_mixer\include;C:\sis457\SDL2\include;C:\sis457\SDL2_image\include;C:\sis457\SDL2_ttf\include;$(IncludePath)</IncludePath>
+    <LibraryWPath>C:\sis457\SDL2_ttf\lib\x64;C:\sis457\SDL2_mixer\lib\x64;C:\sis457\SDL2\lib\x64;C:\sis457\SDL2_image\lib\x64;$(LibraryWPath)</LibraryWPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -125,7 +125,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -148,14 +148,22 @@
     <ClCompile Include="fantasma.cpp" />
     <ClCompile Include="fruta.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapGenerator.cpp" />
+    <ClCompile Include="Muros.cpp" />
     <ClCompile Include="pacman.cpp" />
+    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fantasma.h" />
     <ClInclude Include="fruta.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Gameobject.h" />
+    <ClInclude Include="MapGenerator.h" />
+    <ClInclude Include="Muros.h" />
     <ClInclude Include="pacman.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
