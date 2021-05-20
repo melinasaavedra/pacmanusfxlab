@@ -1,15 +1,15 @@
-tttttttttttttttttttt
+xttttttttttttttttttx
 t..................t
 t.ttt.ttt..ttt.ttt.t
 t..................t
 t.ttt.t.tttt.t.ttt.t
-t.....t......t.....t
+t.....x......x.....t
 ttttt.ttt..ttt.ttttt
 ttttt..........ttttt
-......t      t......
+......x p m  x......
 ttttt.t abcdet..tttt
 ttttt.tttttttt.ttttt
 t..................t
 t.tttttttttttttttt.t
-t........p.........t
-tttttttttttttttttttt
+t..................t
+xttttttttttttttttttx
